@@ -201,9 +201,9 @@ EMAIL_HOST_PASSWORD = 'opkstfrgmmlsgrhk'  # this is app password for my gmail ht
 
 STATIC_URL = '/static/'
 # https://learndjango.com/tutorials/django-static-files
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')  # there is not 'static' folder in BaseDir lazima ilete error..
-]
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'static')  # there is not 'static' folder in BaseDir lazima ilete error..
+# ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # this will copy all static files to this folder on running 'manage.py collectstatic'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
