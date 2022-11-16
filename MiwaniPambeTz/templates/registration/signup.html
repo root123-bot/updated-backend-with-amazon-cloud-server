@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>Hey this is registration form for you, this is ur playground</h2>
+        <div>
+            <form action="" method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button style="margin-top: 10px" type="submit">Save</button>
+                
+            </form>
+            <div>
+                {{ form.errors.email }}
+            </div>
+            
+        </div>
+    </body>
+</html>

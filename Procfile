@@ -1,0 +1,1 @@
+web: gunicorn MiwaniPambeTz.wsgi --log-file -

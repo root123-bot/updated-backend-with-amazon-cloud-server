@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>This is the login interface form login....</h2>
+        <div>
+            <form action="" method="POST">
+                {% csrf_token %}
+                <label>email</label><hr />
+                <input type="email" name="username" /><hr />
+                <label>password</label><hr />
+                <input type="password" name="password" />
+                <button style="margin-top: 10px" type="submit">Login</button>
+            </form>
+        </div>
+    </body>
+</html>

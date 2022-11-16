@@ -1,0 +1,3 @@
+If you want to change the user creaton model make sure you did it first before creating any user since if you create a user
+it means they user old logics and then u have changed logic so ni lazima utapata error hichi kitu ni cha kukiangalia sana pia inabid ukikujue
+kuwa scenario ya hivi ni muhimu coz utapata error kuwa migration which sometimes looks like this 'django.db.migrations.exceptions.InconsistentMigrationHistory: Migration admin.0001_initial is applied before its dependency Register.0001_initial on database 'default'.'
