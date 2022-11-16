@@ -22,7 +22,7 @@ from MiwaniPambeTz.User import urls as user_urls
 from MiwaniPambeTz.api import urls as api_urls
 from django.conf import settings
 from django.conf.urls.static import static
-
+ 
 
 urlpatterns = [
     url(r'^api/', include(api_urls)),
@@ -32,5 +32,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 
-# if settings.DEBUG:
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
